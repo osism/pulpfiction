@@ -1,0 +1,4 @@
+skopeo login --username 'robot$github' osism.harbor.regio.digital
+osism.harbor.regio.digital
+robot$github
+s14kbBs3xw3Sb4f5of3P5o92XqGMx3ff

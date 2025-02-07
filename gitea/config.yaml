@@ -1,0 +1,10 @@
+---
+# gitea
+gitea_owner: osism
+gitea_token: beb82cf7c5f839a13d795f0f2e2fe2fb0b78a81b
+gitea_api_url: https://git.regio.digital/api/v1
+# gitea_api_ssl: False # optional
+
+# github
+github_org: osism
+# github_token: # optional
