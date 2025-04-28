@@ -1,0 +1,6 @@
+---
+- name: Prepare build of metalbox container image
+  hosts: all
+
+  roles:
+    - ensure-docker
