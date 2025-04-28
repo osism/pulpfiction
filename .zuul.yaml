@@ -1,12 +1,18 @@
 ---
+- job:
+    name: pulpfiction-metalbox
+    pre-run: playbooks/pre-metalbox.yml
+    run: playbooks/metalbox.yml
+
 - project:
     merge-mode: squash-merge
     default-branch: main
     check:
       jobs:
         - flake8
-        - yamllint
+        - pulpfiction-metalbox
         - python-black
+        - yamllint
     periodic-daily:
       jobs:
         - flake8
